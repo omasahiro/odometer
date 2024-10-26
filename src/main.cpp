@@ -13,8 +13,8 @@ struct EncoderPins {
 };
 
 EncoderPins pins[2] = {
-    {17, 18},
-    {19, 20}
+    {17, 27},
+    {16, 26}
 };
 
 int main(int argc, char *argv[]) {
