@@ -39,8 +39,8 @@ int main(int argc, char *argv[]) {
         int left_ticks = encoders[0].getRotation();
         int right_ticks = encoders[1].getRotation();
         
-        double wheel_radius = 0.1;
-        double wheel_base = 0.5;
+        double wheel_radius = 0.385;  //[m]
+        double wheel_base = 0.5;    //[m]
         double ticks_per_revolution = 2048.0;
 
         double left_distance = 2 * M_PI * wheel_radius * (left_ticks / ticks_per_revolution);
